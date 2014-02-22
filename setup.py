@@ -6,7 +6,7 @@ setup(
     author='Park Sung Min',
     author_email='vamf12@gmail.com',
     packages=['streamline'],
-    install_requires=[],
+    install_requires=['jinja2'],
     test_suite='nose.collector',
     tests_require=['nose', 'pyexecjs'],
 )
